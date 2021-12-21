@@ -51,8 +51,11 @@ sass_structure > $project_name/src/sass/app.sass
 echo "YOUPIIIIIII"
 code $project_name
 cd $project_name
-git init
 npm init -y
 npm i
 npm install --save @fortawesome/fontawesome-free
 npm install bootstrap
+git init
+git add *
+git commit -m 'Structure fini'
+git checkout -b marouane

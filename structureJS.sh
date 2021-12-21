@@ -30,3 +30,6 @@ echo "Great Job"
 code $project_name
 cd $project_name
 git init
+git add *
+git commit -m 'Structure fini'
+git checkout -b marouane
